@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get_x_state_management/view/Slider_view.dart';
 import 'package:get_x_state_management/view/counter_view.dart';
+import 'package:get_x_state_management/view/favirate_view.dart';
 import 'package:get_x_state_management/view/switch_view.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SwitchView(),
+      home: const FavirateView(),
     );
   }
 }
