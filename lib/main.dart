@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get_x_state_management/view/Slider_view.dart';
 import 'package:get_x_state_management/view/counter_view.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CounterView(),
+      home: const SliderView(),
     );
   }
 }
